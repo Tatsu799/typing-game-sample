@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>title</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js" defer></script>
+    <script src="https://code.createjs.com/1.0.0/easeljs.min.js" defer></script>
+    <script src="https://code.createjs.com/1.0.0/tweenjs.min.js" defer></script>
+    <script src="https://code.createjs.com/1.0.0/soundjs.min.js" defer></script>
+    <script type="module" src="./dist/bundle.js"></script>
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>Typing Battle Game</h1>
+      <div id="canvas-container">
+        <canvas id="gameCanvas" width="500" height="300"></canvas>
+      </div>
+      <div id="word-display"></div>
+      <input type="text" id="input-field" autocomplete="off" />
+      <div id="player-health">Player Health: 100</div>
+      <div id="enemy-health">Enemy Health: 100</div>
+    </div>
+    <!-- <script src="../dist/index.js"></script> -->
+  </body>
+</html>

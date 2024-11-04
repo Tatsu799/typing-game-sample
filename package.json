@@ -1,0 +1,39 @@
+{
+  "name": "ts_base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-build": "webpack --mode development --config webpack.config.js",
+    "start": "webpack serve --mode development --config webpack.config.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/animejs": "^3.1.12",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "lite-server": "^2.6.1",
+    "mini-css-extract-plugin": "^2.9.1",
+    "sass": "^1.80.5",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.4",
+    "@types/createjs": "^0.0.32",
+    "@types/easeljs": "^1.0.5",
+    "animatecc-dts": "^0.3.2",
+    "animejs": "^3.2.2",
+    "createjs-module": "^0.8.3",
+    "html-webpack-plugin": "^5.6.3"
+  }
+}

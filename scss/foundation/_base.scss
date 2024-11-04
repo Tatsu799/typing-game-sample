@@ -1,0 +1,53 @@
+@use "../global" as *;
+
+// html {
+//   font-size: 16px;
+//   margin: 0;
+//   padding: 0;
+//   scroll-padding-top: 100px;
+// }
+
+// body {
+//   line-height: 2;
+//   letter-spacing: 2px;
+//   word-break: break-all;
+//   margin: 0;
+// }
+
+// a {
+//   display: block;
+//   text-decoration: none;
+// }
+
+// li {
+//   list-style: none;
+// }
+
+#game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#word-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+#input-field {
+  font-size: 18px;
+  padding: 5px;
+}
+
+#game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#canvas-container {
+  margin: 20px auto;
+}
+#word-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+#input-field {
+  font-size: 18px;
+  padding: 5px;
+}
